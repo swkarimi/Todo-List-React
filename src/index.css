@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .complete {
+    @apply line-through decoration-purple-900 dark:decoration-white;
+  }
+
+  .active-btn {
+    @apply bg-sky-600 dark:bg-yellow-600;
+  }
+
+  .inactive-btn {
+    @apply bg-gray-300;
+  }
+}
